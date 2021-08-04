@@ -16,3 +16,17 @@
 .footer-hack {
     background-color: #4125dd;
 }
+
+
+.header-hack {
+    background-color: #4125dd;
+}
+
+img{
+    opacity: 0;
+    transition: opacity 250ms ease-in-out;
+}
+
+img.loaded{
+    opacity: 1;
+}
