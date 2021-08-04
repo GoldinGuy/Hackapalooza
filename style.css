@@ -12,3 +12,7 @@
     color: white !important;
     text-shadow: 1px 1px 1px #aaa;
 }
+
+.footer-hack {
+    background-color: #4125dd;
+}
