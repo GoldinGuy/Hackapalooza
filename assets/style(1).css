@@ -543,7 +543,7 @@ About
 inner pages
 -------------------------------*/
 .page-header {
-  background: url("../images/bg/cta-bg.jpg") no-repeat;
+  /* background: url("../images/bg/cta-bg.jpg") no-repeat; */
   background-size: cover;
   padding: 80px 0px;
   position: relative;
@@ -1040,7 +1040,7 @@ Pricing
 }
 
 .section-pricing {
-  background: url("../images/banner/speakers-bg-black.jpg") no-repeat;
+  /* background: url("../images/banner/speakers-bg-black.jpg") no-repeat; */
   background-size: cover;
 }
 
@@ -1049,7 +1049,7 @@ Sponsors
 -------------------------------*/
 .sponsors {
   position: relative;
-  background: url("../images/bg/cta-bg.jpg") no-repeat fixed 50% 50%;
+  /* background: url("../images/bg/cta-bg.jpg") no-repeat fixed 50% 50%; */
   background-size: cover;
 }
 
@@ -1337,7 +1337,6 @@ Blog
 footer
 -------------------------------*/
 .footer {
-  background: url("../images/bg/footer-bg.jpg") no-repeat;
   background-image: cover;
   padding-bottom: 35px;
 }
