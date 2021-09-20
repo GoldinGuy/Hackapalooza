@@ -30,3 +30,7 @@
 img.loaded{
     opacity: 1;
 } */
+
+.hover-w:hover {
+    color: white !important;
+}
