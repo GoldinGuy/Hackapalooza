@@ -34,3 +34,7 @@ img.loaded{
 .hover-w:hover {
     color: white !important;
 }
+
+.highlight {
+    color: #4125dd !important;
+}
