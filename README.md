@@ -2,8 +2,6 @@
 
 For all Hackapalooza details, view [hackapalooza.dev](https://hackapalooza.dev)
 
-All projects are listen in order of submission:
-
 
 ### 🏆 1st Place: **waff.el**
 
@@ -13,7 +11,6 @@ waff.el adds waffles to the Emacs text editor. Have you ever been coding and jus
 - [GitHub](https://github.com/BiRD4/waff.el)
 
 Created by Team WAAFLES!!!!!!!!!11, *Boone Douglass*
-
 
 
 ### 🥇 2nd Place: **Stochastic L-Trees**
