@@ -18,7 +18,7 @@
   <!-- Mobile Specific Meta-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.png">
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="./assets/bootstrap.min.css">
   <!-- Icon Css -->
@@ -55,7 +55,7 @@
  		<div class="container">
  			<!--      LOGO BAR     -->
  			<a class="navbar-brand" style="display: flex; align-items: center;" href="./index.html">
- 				<img  loading="lazy"  src="favicon.png" alt="Hackapalooza" class="img-fluid logo-b " style="height: 42px;">
+ 				<img  loading="lazy"  src="./assets/favicon.png" alt="Hackapalooza" class="img-fluid logo-b " style="height: 42px;">
         Hackapalooza
  			</a>
 
@@ -716,7 +716,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h5 class="text-white mt-5 mb-4 h3">Want to be a partner? </h5>
-                <a href="https://hackapalooza.dev/docs/partnership.pdf" target="_blank" rel="noreferrer" class="btn btn-hero btn-rounded">Learn More</a>
+                <a href="https://hackapalooza.dev/partners/partnership.pdf" target="_blank" rel="noreferrer" class="btn btn-hero btn-rounded">Learn More</a>
             </div>
         </div>
     </div>
@@ -770,7 +770,7 @@
     <!-- Bootstrap 4.3 -->
     <script src="./assets/bootstrap.min.js.download"></script>
   	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="SyoTimer-2.1.1/build/jquery.syotimer.min.js"></script>
+    <!-- <script type="text/javascript" src="./plugins/SyoTimer-2.1.1/build/jquery.syotimer.min.js"></script> -->
 
 
 	<script>
@@ -797,17 +797,17 @@
 		});
 
 
-  jQuery(function($) {
-    $('#day2').hide();
-// Count Down JS
- $('#simple-timer')?.syotimer({
-    year: 2021,
-    month: 9,
-    day: 25,
-    hour: 12,
-    minute: 0
-});
- });
+//   jQuery(function($) {
+//     $('#day2').hide();
+// // Count Down JS
+//  $('#simple-timer')?.syotimer({
+//     year: 2021,
+//     month: 9,
+//     day: 25,
+//     hour: 12,
+//     minute: 0
+// });
+//  });
 
  $(function() {
   $('#day1-tab').click(function(){
@@ -822,10 +822,6 @@
     $('#day2').show();
   });
 });
-
-// $("img").on('load', function(){
-//     $(this).addClass('loaded');
-//  });
 	</script>
   
    </body></html>
